@@ -1,14 +1,13 @@
 {
-  "name": "PPADevs/sap",
+  "name": "ppadevs/sap",
   "description": "Library for SAP handling.",
   "authors": [
     {
-      "name": "Darko Dvorski",
-      "email": "dadeky@gmail.com",
-      "role": "Developer"
+      "name": "ppadevs",
+      "role": "Developers"
     }
   ],
-  "homepage": "https://github.com/PPADevs/sap",
+  "homepage": "https://github.com/ppadevs/sap",
   "license": "BSD-2-Clause",
   "keywords": [
     "sap",
@@ -19,19 +18,14 @@
   },
   "require": {
     "php": ">=7.4",
-    "besimple/soap-client": "^0.2.6",
-    "guzzlehttp/guzzle" : "~6.0",
-    "PPADevs/file" : "^2.0",
-    "PPADevs/ddd": "^2.0"
+    "ppadevs/soap-client": "^1.0",
+    "guzzlehttp/guzzle": "^7.4",
+    "ppadevs/file" : "^2.2",
+    "ppadevs/ddd": "^2.2"
   },
   "autoload": {
     "psr-4": {
       "Sap\\": "src/Sap"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Sap\\Tests\\": "tests/Sap/Tests"
     }
   }
 }

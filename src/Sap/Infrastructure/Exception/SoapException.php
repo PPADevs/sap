@@ -1,7 +1,7 @@
 <?php
 namespace Sap\Infrastructure\Exception;
 
-use Dadeky\Ddd\Domain\Exception\DomainException;
+use ppadevs\Ddd\Domain\Exception\DomainException;
 
 class SoapException extends DomainException
 {

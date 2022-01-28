@@ -1,7 +1,7 @@
 <?php
 namespace Sap\Infrastructure;
 
-use BeSimple\SoapClient\SoapClient;
+use ppadevs\SoapClient\SoapClient;
 
 class SoapAdapter implements AdapterInterface
 {

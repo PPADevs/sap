@@ -1,7 +1,7 @@
 <?php
 namespace Sap\Domain\Idoc\Exception;
 
-use Dadeky\Ddd\Domain\Exception\DomainException;
+use ppadevs\Ddd\Domain\Exception\DomainException;
 
 class NoPathParameterIsSetException extends DomainException
 {
