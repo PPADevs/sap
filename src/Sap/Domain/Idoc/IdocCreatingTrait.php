@@ -20,4 +20,3 @@ trait IdocCreatingTrait
         return null;
     }
 }
-

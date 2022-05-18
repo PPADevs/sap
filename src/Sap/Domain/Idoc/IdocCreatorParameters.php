@@ -11,7 +11,12 @@ class IdocCreatorParameters
     private $uuid;
     
     public function __construct(
-        $path=null, $interfaceName=null, $qos=null, $interfaceNamespace=null, $queueid=null, $uuid = null
+        ?string $path = null,
+        ?string $interfaceName = null, 
+        ?string $qos = null, 
+        ?string $interfaceNamespace = null, 
+        ?string $queueid = null, 
+        ?string $uuid = null
     ){
         $this->interfaceName = $interfaceName;
         $this->path = $path;
