@@ -6,7 +6,7 @@ interface RemoteRequestInterface
     /** @return string */
 	public function getMethodName();
 	
-	/** @return string */
+	/** @return array */
 	public function getParams();
 	
 	/** @return bool */
